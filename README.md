@@ -110,23 +110,23 @@
 
 Where:  
 ```
-  R = Rainfall Intensity Index  
-      (avg. daily rainfall in mm ÷ 200)
+R = Rainfall Intensity Index  
+    (avg. daily rainfall in mm ÷ 200)
 
-  D = Rainfall Duration Index  
-      (number of rainy days ÷ 20)
+D = Rainfall Duration Index  
+    (number of rainy days ÷ 20)
 
-  I = Impervious Surface Index  
-      (urban impervious % ÷ 100)
+I = Impervious Surface Index  
+    (urban impervious % ÷ 100)
 
-  S = Soil Saturation Index  
-      (1 if saturated, 0.5 if moist, 0.2 if dry)
+S = Soil Saturation Index  
+    (1 if saturated, 0.5 if moist, 0.2 if dry)
 
-  U = Urban Drainage Index  
-      (1 if poor, 0.5 if average, 0.2 if good)
+U = Urban Drainage Index  
+    (1 if poor, 0.5 if average, 0.2 if good)
 
-  N = Normalization Constant  
-      (tune output scale, e.g., 1.2)
+N = Normalization Constant  
+    (tune output scale, e.g., 1.2)
 ```
 <br>
 
