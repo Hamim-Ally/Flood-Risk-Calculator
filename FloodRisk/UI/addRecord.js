@@ -19,7 +19,6 @@ const LocationLabel = new Label({
 
 const LocationField = new TextInput({
     class: 'input-field',
-    placeholder: 'Enter Location',
 });
 
 LocationInput.append(LocationLabel);
@@ -31,7 +30,7 @@ const IntensityInput = new Container({
 });
 
 const IntensityLabel = new Label({
-    text: '🌧️ Rainfall Intensity:',
+    text: '🌧️ Rainfall Intensity (mm):',
     class: 'input-label',
 });
 
@@ -49,7 +48,7 @@ const DurationInput = new Container({
 });
 
 const DurationLabel = new Label({
-    text: '⏳ Rainfall Duration:',
+    text: '⏳ Rainfall Duration (day):',
     class: 'input-label',
 });
 
@@ -148,7 +147,7 @@ const MaxIntensityInput = new Container({
 });
 
 const MaxIntensityLabel = new Label({
-    text: '🌧️ Rainfall Max Intensity:',
+    text: '🌧️ Rainfall Max Intensity (mm):',
     class: 'input-label',
 });
 
@@ -170,7 +169,7 @@ const MaxDurationInput = new Container({
 });
 
 const MaxDurationLabel = new Label({
-    text: '⏳ Rainfall Max Duration:',
+    text: '⏳ Rainfall Max Duration (day):',
     class: 'input-label',
 });
 
