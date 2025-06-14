@@ -1,0 +1,95 @@
+.menu-item {
+    position: relative;
+    background-color: $bcg-darkest;
+    width: auto;
+}
+
+.menu-item-children {
+    box-shadow: 0 0 8px rgb(0 0 0 / 60%);
+    position: absolute;
+    z-index: 1;
+    left: 100%;
+    top: 0;
+    opacity: 0;
+    transition: opacity 100ms, visibility 100ms;
+    visibility: hidden;
+}
+
+.menu-item:hover {
+    > .menu-item-children {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.menu-item-has-children {
+    & > .menu-item-content > .label {
+        padding-right: 32px;
+
+        &::after {
+            content: '\E160';
+
+            @extend .font-icon;
+
+            position: absolute;
+            right: $element-margin;
+        }
+    }
+}
+
+.menu-item-content {
+    min-width: 158px;
+    color: $text-dark;
+    border-bottom: 1px solid color.mix($bcg-darkest, $bcg-dark, 50%);
+    cursor: pointer;
+
+    &:hover {
+        color: $text-primary;
+        background-color: $text-darkest;
+    }
+
+    > .label {
+        transition: none;
+    }
+}
+
+.menu-item:last-child {
+    > .menu-item-content {
+        border-bottom: none;
+    }
+}
+
+.menu-item-content > .label {
+    color: inherit;
+
+    &[data-icon] {
+        // show icon using data-icon attribute
+        // as the content
+        &::before {
+            content: attr(data-icon);
+
+            @extend .font-icon;
+
+            font-weight: 100;
+            font-size: inherit;
+            margin-right: $element-margin;
+            vertical-align: middle;
+        }
+    }
+}
+
+.menu-item.pcui-disabled {
+    .menu-item-content {
+        cursor: default;
+
+        &:hover {
+            color: $text-dark;
+            background-color: transparent;
+        }
+
+        & > .label {
+            cursor: default;
+            opacity: $disabled-opacity;
+        }
+    }
+}

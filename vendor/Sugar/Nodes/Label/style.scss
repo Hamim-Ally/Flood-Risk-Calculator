@@ -1,0 +1,59 @@
+.label {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: $element-margin;
+    vertical-align: middle;
+    transition: opacity 100ms;
+    color: $text-secondary;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    user-select: none;
+}
+
+.label.pcui-default-mousedown {
+    user-select: initial;
+}
+
+.label.pcui-multiple-values {
+    position: relative;
+    color: transparent;
+
+    &::before {
+        content: '...';
+        color: $text-secondary;
+        white-space: nowrap;
+
+        @extend .fixed-font;
+
+        font-size: 12px;
+    }
+}
+
+.label.pcui-error {
+    color: $error-secondary;
+}
+
+.label.pcui-selectable {
+    &:hover {
+        color: $text-active;
+        text-decoration: underline;
+
+        @extend .pcui-no-select;
+    }
+}
+
+// placeholder
+.label[placeholder] {
+    position: relative;
+
+    &::after {
+        content: attr(placeholder);
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0 8px;
+        color: #999;
+        pointer-events: none;
+    }
+}

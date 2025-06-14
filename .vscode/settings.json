@@ -1,0 +1,23 @@
+{
+    "liveServer.settings.port": 5501,
+    "liveSassCompile.settings.formats":
+    [
+        {
+            "format": "compressed",
+            "extensionName": ".css",
+            "savePath": "/Sandbox"
+        }
+    ],
+
+    "liveSassCompile.settings.excludeList": ["**/!(index|theme|pcui-theme-grey).scss"],
+
+    "material-icon-theme.folders.associations": {
+        "Sugar": "storybook",
+        "Nodes": "graphql",
+        "Label": "scala",
+        "UI EXAMPLES": "examples",
+        "Observer": "react-components",
+        "Docker Examples": "examples",
+        "popout": "angular"
+    },
+}

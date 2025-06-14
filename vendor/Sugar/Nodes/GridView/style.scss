@@ -1,0 +1,13 @@
+.pcui-gridview {
+    @extend .pcui-flex;
+
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+.pcui-gridview-vertical {
+    @extend .pcui-flex;
+
+    flex-direction: column;
+    align-content: flex-start;
+}
