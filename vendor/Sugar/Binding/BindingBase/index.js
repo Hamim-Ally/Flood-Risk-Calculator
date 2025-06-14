@@ -1,4 +1,4 @@
-import { Events } from '../../Events/events.js';
+import { Events } from '../../Events/Events.js';
 
 /**
  * Base class for data binding between {@link IBindable} {@link Element}s and Observers.

@@ -1,4 +1,4 @@
-import { _hsv2rgb, _rgb2hsv } from '../../maths/color-value.js';
+import { _hsv2rgb, _rgb2hsv } from '../../Maths/color-value.js';
 import { Button } from '../Button/index.js';
 import { Canvas } from '../Canvas/index.js';
 import { Element } from '../Element/index.js';
@@ -8,9 +8,9 @@ import { Overlay } from '../Overlay/index.js';
 import { Panel } from '../Panel/index.js';
 import { SelectInput } from '../SelectInput/index.js';
 import { TextInput } from '../TextInput/index.js';
-import { math } from '../../maths/math.js';
-import { CurveSet } from '../../maths/curve-set.js';
-import { Curve } from '../../maths/curve.js';
+import { math } from '../../Maths/math.js';
+import { CurveSet } from '../../Maths/curve-set.js';
+import { Curve } from '../../Maths/curve.js';
 
 const CLASS_MULTIPLE_VALUES = 'pcui-multiple-values';
 const CURVE_LINEAR = 0;

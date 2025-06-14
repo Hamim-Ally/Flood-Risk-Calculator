@@ -1,4 +1,4 @@
-import { deepCopy, arrayEquals } from '../../utils/utils.js';
+import { deepCopy, arrayEquals } from '../../Utils/utils.js';
 import { Button } from '../Button/index.js';
 import { Container } from '../Container/index.js';
 import { Element } from '../Element/index.js';

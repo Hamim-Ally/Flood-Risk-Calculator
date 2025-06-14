@@ -1,5 +1,5 @@
 import { CLASS_NOT_FLEXIBLE, CLASS_MULTIPLE_VALUES } from '../../class.js';
-import { _hsv2rgb, _rgb2hsv } from '../../maths/color-value.js';
+import { _hsv2rgb, _rgb2hsv } from '../../Maths/color-value.js';
 import { Element } from '../Element/index.js';
 import { NumericInput } from '../NumericInput/index.js';
 import { Overlay } from '../Overlay/index.js';

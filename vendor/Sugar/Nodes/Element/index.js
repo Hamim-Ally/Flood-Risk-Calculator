@@ -1,4 +1,4 @@
-import { Events } from '../../Events/events.js';
+import { Events } from '../../Events/Events.js';
 import { CLASS_FONT_REGULAR, CLASS_FLASH, CLASS_DISABLED, CLASS_READONLY, CLASS_HIDDEN, CLASS_ERROR } from '../../class.js';
 
 const CLASS_ELEMENT = 'pcui-element';
