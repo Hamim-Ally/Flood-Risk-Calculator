@@ -1,4 +1,4 @@
-🌍 Global Standard Rainfall Intensity Scale (Based on mm/hour)
+####🌍 Global Standard Rainfall Intensity Scale (Based on mm/hour)
 
 | **Category**           | **Rainfall Intensity**        | **Description**                       |
 | ---------------------- | ----------------------------- | ------------------------------------- |
@@ -8,9 +8,8 @@
 | ⚠️ **Very heavy rain** | >50 mm/hr *(rare)*            | Intense rainfall, flooding likely     |
 | 🚨 **Extreme rain**    | >100 mm/hr *(extremely rare)* | Catastrophic rainfall, flash flooding |
 
-\n
 
-📆 Converted to Daily Totals (Approx):
+####📆 Converted to Daily Totals (Approx):
 Just so you can compare to the Sylhet rainfall numbers (150–200 mm/day):
 
 | **Hourly Rate** | **24-hour Equivalent**    |
