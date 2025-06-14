@@ -1,7 +1,7 @@
-export { BindingBase } from './binding/BindingBase/index.js';
-export { BindingElementToObservers } from './binding/BindingElementToObservers/index.js';
-export { BindingObserversToElement } from './binding/BindingObserversToElement/index.js';
-export { BindingTwoWay } from './binding/BindingTwoWay/index.js';
+export { BindingBase } from './Binding/BindingBase/index.js';
+export { BindingElementToObservers } from './Binding/BindingElementToObservers/index.js';
+export { BindingObserversToElement } from './Binding/BindingObserversToElement/index.js';
+export { BindingTwoWay } from './Binding/BindingTwoWay/index.js';
 export { ArrayInput } from './Nodes/ArrayInput/index.js';
 export { BooleanInput } from './Nodes/BooleanInput/index.js';
 export { Button } from './Nodes/Button/index.js';
