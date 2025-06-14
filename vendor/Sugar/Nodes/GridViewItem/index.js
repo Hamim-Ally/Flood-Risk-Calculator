@@ -1,4 +1,4 @@
-import { BindingObserversToElement } from '../../binding/BindingObserversToElement/index.js';
+import { BindingObserversToElement } from '../../Binding/BindingObserversToElement/index.js';
 import { Container } from '../Container/index.js';
 import { Label } from '../Label/index.js';
 import { RadioButton } from '../RadioButton/index.js';

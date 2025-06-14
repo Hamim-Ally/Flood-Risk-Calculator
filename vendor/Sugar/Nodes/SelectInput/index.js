@@ -1,5 +1,5 @@
 import { CLASS_FOCUS, CLASS_MULTIPLE_VALUES } from '../../class.js';
-import { searchItems } from '../../utils/search.js';
+import { searchItems } from '../../Utils/search.js';
 import { Button } from '../Button/index.js';
 import { Container } from '../Container/index.js';
 import { Element } from '../Element/index.js';

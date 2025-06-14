@@ -1,4 +1,4 @@
-import { searchItems } from '../../utils/search.js';
+import { searchItems } from '../../Utils/search.js';
 import { Container } from '../Container/index.js';
 import { Element } from '../Element/index.js';
 import { TreeViewItem } from '../TreeViewItem/index.js';

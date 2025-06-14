@@ -1,4 +1,4 @@
-import { __extends } from './node_modules/tslib/tslib.es6.js';
+import { __extends } from '../Utils/tslib.es6.js';
 import { Events } from './events.js';
 import { arrayEquals } from './utils.js';
 
