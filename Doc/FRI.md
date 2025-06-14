@@ -1,4 +1,4 @@
-####🌍 Global Standard Rainfall Intensity Scale (Based on mm/hour)
+#### 🌍 Global Standard Rainfall Intensity Scale (Based on mm/hour)
 
 | **Category**           | **Rainfall Intensity**        | **Description**                       |
 | ---------------------- | ----------------------------- | ------------------------------------- |
@@ -9,7 +9,7 @@
 | 🚨 **Extreme rain**    | >100 mm/hr *(extremely rare)* | Catastrophic rainfall, flash flooding |
 
 
-####📆 Converted to Daily Totals (Approx):
+#### 📆 Converted to Daily Totals (Approx):
 Just so you can compare to the Sylhet rainfall numbers (150–200 mm/day):
 
 | **Hourly Rate** | **24-hour Equivalent**    |
@@ -22,7 +22,7 @@ Just so you can compare to the Sylhet rainfall numbers (150–200 mm/day):
 
 
 
-📐 3. Manual Estimation (If No Tools)
+#### 📐 3. Manual Estimation (If No Tools)
 Use this rough scale:
 
 | **Area Type**               | **Estimated U (Urban Level)** |
@@ -34,7 +34,7 @@ Use this rough scale:
 | Dense city core (concrete)  | 0.8 – 1.0                     |
 
 
-🌆 General Urbanization / Impervious Surface Levels
+#### 🌆 General Urbanization / Impervious Surface Levels
 
 | **Area Type**                          | **Estimated U (Impervious Ratio)** | **Explanation**                               |
 | -------------------------------------- | ---------------------------------- | --------------------------------------------- |
@@ -46,7 +46,7 @@ Use this rough scale:
 | 🛣️ Fully Built-Up (CBD, industrial)   | 0.90 – 1.00                        | Nearly 100% sealed: no green at all           |
 
 
-🌱 Soil Saturation
+#### 🌱 Soil Saturation
 
 | Condition                        | Use S value |
 | -------------------------------- | ----------- |
@@ -55,7 +55,7 @@ Use this rough scale:
 | Recent heavy rain, poor drainage | 0.8 – 1.0   |
 
 
-🌊 FRI Level Scale (Flood Risk Index Level)
+#### 🌊 FRI Level Scale (Flood Risk Index Level)
 
 | **FRI Value (Raw)** | **Risk Level** | **Description**                            | **Action**                    |
 | ------------------- | -------------- | ------------------------------------------ | ----------------------------- |
