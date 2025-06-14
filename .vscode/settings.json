@@ -9,7 +9,7 @@
         }
     ],
 
-    "liveSassCompile.settings.excludeList": ["**/!(index|theme|pcui-theme-grey).scss"],
+    "liveSassCompile.settings.excludeList": ["**/!(index|theme).scss"],
 
     "material-icon-theme.folders.associations": {
         "Sugar": "storybook",
