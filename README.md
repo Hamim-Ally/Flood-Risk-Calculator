@@ -5,7 +5,7 @@
 **🔗 Live Demo:** [FloodSense Web App](https://hamim-ally.github.io/FloodSense/)  
 **📊 Data Source:** [Flood Data (GitHub)](https://github.com/Hamim-Ally/FloodSense/blob/main/Doc/Data.md)
 
----
+<br>
 
 ## 🗺️ SYLHET FLOOD DATA SUMMARY
 
@@ -18,7 +18,7 @@
 - **Drainage & Infrastructure**: Urban drainage is bad, canals often blocked  
 - **Topography & Soil**: Bowl-shaped Sylhet + clay/silt soil = easy flooding
 
----
+<br>
 
 ## 🌍 Rainfall Intensity Scale (Global Standard)
 
@@ -32,7 +32,7 @@
 | ⚠️ Very heavy rain     | >50 *(rare)*           | Bad—serious flood risk                   |
 | 🚨 Extreme rain        | >100 *(extremely rare)*| Literally apocalyptic                    |
 
----
+<br>
 
 ## 📆 Hourly → Daily Rainfall (For Comparison)
 
@@ -45,7 +45,7 @@
 | 50          | 1200                 | Disastrous         |
 | 100         | 2400                 | Apocalyptic        |
 
----
+<br>
 
 ## 🌆 Impervious Surface Levels
 
@@ -60,7 +60,7 @@
 | 🏙️ City Core                       | 0.70 – 0.90     | Malls, offices, mostly concrete        |
 | 🛣️ Industrial/CBD                 | 0.90 – 1.00     | Maxed-out urbanization                 |
 
----
+<br>
 
 ## 🌱 Soil Saturation Index
 
@@ -72,7 +72,7 @@
 | Normal moisture               | 0.5 – 0.7       |
 | Heavy rain recently           | 0.8 – 1.0       |
 
----
+<br>
 
 ## 📐 Urban Drainage Level
 
@@ -86,7 +86,7 @@
 | Urban neighborhood          | 0.5 – 0.7       |
 | Dense city core             | 0.8 – 1.0       |
 
----
+<br>
 
 ## 🌊 Flood Risk Index (FRI) Levels
 
@@ -99,7 +99,35 @@
 | 30 – 60        | High             | Heavy rain or bad soil               | Prep for flood              |
 | 60 – 100       | Severe           | Flood is incoming                    | Emergency mode              |
 
----
+<br>
+
+## 🧠 Core Theory Behind the Flood Risk Formula
+
+> Flooding happens when rainwater exceeds the land’s ability to absorb or drain it away. This formula is built on a few key ideas:
+
+### 1. **Rainfall Intensity & Duration Matter**
+
+Heavy rain over a short time or moderate rain over a long time both cause flooding differently. So, the formula looks at both how much rain and for how long it falls.
+
+### 2. **Soil Saturation Controls Absorption**
+
+If the soil is already soaked, it can’t soak up new rain, so water quickly turns into surface runoff, increasing flood risk.
+
+### 3. **Urban Surfaces Block Water**
+
+Concrete and asphalt don’t absorb water like soil. More urbanization means more runoff and higher flood chances.
+
+### 4. **Drainage Efficiency Affects Water Flow**
+
+Good drainage systems help remove water fast. Poor or blocked drainage means water pools and floods.
+
+### 5. **Normalization for Scale**
+
+Since all these factors have different units and scales, the formula normalizes them so they work together in one risk score.
+
+> So basically, this formula models flood risk as the combined effect of how much water comes in, how much the ground and city can soak or drain it, and how long the wet conditions last.
+
+<br>
 
 ## 🧮 The FRI Formula
 
