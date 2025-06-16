@@ -82,7 +82,7 @@ class DetailsInfo extends Container {
     set(data) {
         this.Location.text = `🌍 Location: ${data.location}`
         this.Intensity.text = `🌧️ Rainfall Intensity: ${data.intensity} mm`;
-        this.Duration.text = `⏳ Rainfall Duration: ${data.duration} hours`;
+        this.Duration.text = `⏳ Rainfall Duration: ${data.duration} days`;
         this.ImperviousSurface.text = `🧱 Impervious Surface: ${data.imperviousSurfaceLevel}`;
         this.SoilSaturation.text = `⛰️ Soil Saturation: ${data.soilSaturationLevel}`;
         this.UrbanDrainage.text = `💧 Urban Drainage: ${data.urbanDrainageLevel}`;
