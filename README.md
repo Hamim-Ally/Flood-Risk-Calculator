@@ -128,6 +128,37 @@ U = Urban Drainage Index
 N = Normalization Constant  
     (tune output scale, e.g., 1.2)
 ```
+
+<br>
+
+## 🤔 Why We Use This Formula, Not Some Other One?
+
+> 🔥 Real talk: There are plenty of flood risk formulas out there, but here’s why this one stands out for general use.
+
+### 1. **Balances Simplicity & Accuracy**
+
+It’s easy to calculate using commonly available data but still captures the key factors that affect flooding.
+
+### 2. **Considers All Major Flood Drivers**
+
+Rainfall, duration, soil saturation, urban surfaces, and drainage—this formula covers the essentials that influence flood risk in most places.
+
+### 3. **Flexible & Adaptable**
+
+You can tweak parameters to fit different regions or data quality without rebuilding the whole thing.
+
+### 4. **Practical for Real-Time Use**
+
+Designed to work with data that updates frequently, making it great for alert systems and quick risk assessment.
+
+### 5. **Transparent & Understandable**
+
+No black-box magic—each part of the formula has a clear meaning and can be explained easily to stakeholders or locals.
+
+### TL;DR:
+
+This formula is a solid middle ground—simple enough to use widely, but detailed enough to give reliable flood risk insights anywhere.
+
 <br>
 
 ## 🧠 Sylhet 2024 Flood Example
